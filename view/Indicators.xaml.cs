@@ -13,11 +13,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace FilghtSim.src.components
+namespace FilghtSim.view
 {
-    /// <summary>
-    /// Interaction logic for Indicators.xaml
-    /// </summary>
+
     public partial class Indicators : UserControl
     {
         public Indicators()

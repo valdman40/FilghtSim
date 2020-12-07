@@ -1,7 +1,7 @@
-﻿<Application x:Class="FilghtSim.App"
+﻿<Application x:Class="FlightSim.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:FilghtSim"
+             xmlns:local="clr-namespace:FlightSim"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

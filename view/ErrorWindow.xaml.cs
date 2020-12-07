@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FlightSim;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,16 +14,24 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace FilghtSim.src.components
+namespace FilghtSim.view
 {
     /// <summary>
-    /// Interaction logic for JoyStick.xaml
+    /// Interaction logic for ErrorWindow.xaml
     /// </summary>
-    public partial class JoyStick : UserControl
+    public partial class ErrorWindow : UserControl
     {
-        public JoyStick()
+        private ViewModel vm;
+
+        public ErrorWindow()
         {
+            this.vm = (Application.Current as App).vm;
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.vm.cleanErrorString();
         }
     }
 }

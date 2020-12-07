@@ -13,16 +13,17 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace FilghtSim.src.components
+namespace FilghtSim.view
 {
     /// <summary>
-    /// Interaction logic for TopBar.xaml
+    /// Interaction logic for Controls.xaml
     /// </summary>
-    public partial class TopBar : UserControl
+    public partial class Controls : UserControl
     {
-        public TopBar()
+        public Controls()
         {
             InitializeComponent();
         }
+
     }
 }
